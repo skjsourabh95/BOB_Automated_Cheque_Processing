@@ -1,0 +1,118 @@
+{
+    "local_path": "./data/tmp/cheque-hindi.png",
+    "blob_url": "https://bobdocs.blob.core.windows.net/bob-run-docs/cheque-hindi.png",
+    "signature_present": true,
+    "signatures_verified": false,
+    "data_extracted": {
+        "document_detected": {
+            "BOB:BOB": 0.721
+        },
+        "identified_labels": {
+            "issue_date": {
+                "value": "\u0967\u0967/\u0967\u0968/\u0968\u0968",
+                "confidence": 0.945
+            },
+            "account_holder_name": {
+                "value": "\u0938\u094c\u0930\u092d \u0915\u0941\u092e\u093e\u0930 \u091c\u0902\u0918\u0947\u0932",
+                "confidence": 0.763
+            },
+            "signature": {
+                "value": "signed",
+                "confidence": 0.995
+            },
+            "amount_in_words": {
+                "value": "\u0915\u0947\u0935\u0932 \u090f\u0915 \u0939\u091c\u093c\u093e\u0930",
+                "confidence": 0.902
+            },
+            "amount": {
+                "value": "\u0967\u0966\u0966\u0966 /-",
+                "confidence": 0.726
+            },
+            "account_no": {
+                "value": "\u0967\u0968\u0969\u096a\u096b\u096c\u096d\u096e\u096f\u0966",
+                "confidence": 0.992
+            }
+        },
+        "labels_coordinates": {
+            "issue_date": [
+                704,
+                29,
+                776,
+                48
+            ],
+            "account_holder_name": [
+                187,
+                99,
+                333,
+                129
+            ],
+            "signature": [
+                569,
+                229,
+                791,
+                313
+            ],
+            "amount_in_words": [
+                189,
+                134,
+                322,
+                161
+            ],
+            "amount": [
+                641,
+                190,
+                703,
+                208
+            ],
+            "account_no": [
+                145,
+                260,
+                258,
+                281
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u0938\u0947\u0935\u093f\u0902\u0917 \u0916\u093e\u0924\u093e \u0964 SAVINGS ACCOUNT",
+                "\u092c\u0948\u0902\u0915 \u0911\u092b\u093c \u092c\u0921\u093c\u094c\u0926\u093e",
+                "Bank of Baroda",
+                "\u0905\u0926\u093e \u0915\u0930\u0947",
+                "\u0938\u094c\u0930\u092d \u0915\u0941\u092e\u093e\u0930 \u091c\u0902\u0918\u0947\u0932",
+                "Pay",
+                "\u0930\u0941\u092a\u092f\u0947",
+                "\u0915\u0947\u0935\u0932 \u090f\u0915 \u0939\u091c\u093c\u093e\u0930",
+                "Rupees",
+                "\u092c. \u092a.",
+                "L.F",
+                "\u0967\u0968\u0969\u096a\u096b\u096c\u096d\u096e\u096f\u0966",
+                "INTLS.",
+                "\u0916\u093e.\u0938\u0902.",
+                "A/c No.",
+                "\u092a\u093e\u0930\u094d\u0915 \u0938\u0930\u094d\u0915\u0938, \u0915\u094b\u0932\u0915\u093e\u0924\u093e \u096d\u0966\u0966\u0966\u0967\u096a",
+                "Park Circus, Kolkata 700 014",
+                "SSB/03/C",
+                "PKC",
+                "\u0926\u093f\u0928\u093e\u0902\u0915 \u0967\u0967/\u0967\u0968/\u0968\u0968",
+                "Date",
+                "\u092f\u093e \u0927\u093e\u0930\u0915 \u0915\u094b",
+                "Or Bearer",
+                "OF BARODA",
+                "\u0930\u0941",
+                "Rs",
+                "\u0967\u0966\u0966\u0966 /-",
+                "27295"
+            ]
+        },
+        "structured_data": {}
+    },
+    "signature_verification_conf": 0.3592187464237213,
+    "verified_signature_name": "sourabh_kumar_janghel",
+    "signature_detection_conf": 0.872757077217102,
+    "signature_class": "DLLogo",
+    "sign_image_cords": [
+        72,
+        27,
+        126,
+        72
+    ]
+}

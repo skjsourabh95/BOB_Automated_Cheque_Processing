@@ -1,4 +1,4 @@
-# [BOB - Alternate Authentication](https://www.techgig.com/hackathon/automate-cheque-processing) - Idea submission
+# [BOB - automate-cheque-processing](https://www.techgig.com/hackathon/automate-cheque-processing) - Idea submission
 
 ## Objective
 ```

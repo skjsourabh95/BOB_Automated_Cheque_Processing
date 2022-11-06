@@ -1,0 +1,39 @@
+{
+	"docTypes": {
+		"BOB": {
+			"fieldSchema": {
+				"account_holder_name": {
+					"type": "string"
+				},
+				"issue_date": {
+					"type": "string"
+				},
+				"amount": {
+					"type": "string"
+				},
+				"amount_in_words": {
+					"type": "string"
+				},
+				"account_no": {
+					"type": "string"
+				},
+				"signature": {
+					"type": "signature"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"account_holder_name": 0.5,
+				"account_no": 0.995,
+				"amount": 0.833,
+				"amount_in_words": 0.667,
+				"issue_date": 0.667,
+				"signature": 0.667
+			}
+		}
+	},
+	"modelId": "BOB",
+	"createdDateTime": "2022-10-26T11:54:14Z",
+	"apiVersion": "2022-08-31",
+	"description": "BOB"
+}

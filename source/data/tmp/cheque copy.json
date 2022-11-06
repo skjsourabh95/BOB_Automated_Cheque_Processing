@@ -1,0 +1,134 @@
+{
+    "local_path": "./data/tmp/cheque copy.png",
+    "blob_url": "https://bobdocs.blob.core.windows.net/bob-run-docs/cheque copy.png",
+    "signature_present": true,
+    "signatures_verified": true,
+    "data_extracted": {
+        "document_detected": {
+            "BOB:BOB": 0.656
+        },
+        "identified_labels": {
+            "signature": {
+                "value": "signed",
+                "confidence": 0.995
+            },
+            "issue_date": {
+                "value": "12-10-2022",
+                "confidence": 0.659
+            },
+            "account_no": {
+                "value": "1234567889",
+                "confidence": 0.995
+            },
+            "amount": {
+                "value": "10000",
+                "confidence": 0.969
+            },
+            "account_holder_name": {
+                "value": "John Doe",
+                "confidence": 0.523
+            },
+            "amount_in_words": {
+                "value": "ten thousand only",
+                "confidence": 0.791
+            }
+        },
+        "labels_coordinates": {
+            "signature": [
+                845,
+                343,
+                1168,
+                456
+            ],
+            "issue_date": [
+                1063,
+                45,
+                1162,
+                70
+            ],
+            "account_no": [
+                231,
+                398,
+                343,
+                421
+            ],
+            "amount": [
+                991,
+                292,
+                1044,
+                310
+            ],
+            "account_holder_name": [
+                227,
+                157,
+                314,
+                181
+            ],
+            "amount_in_words": [
+                195,
+                214,
+                357,
+                239
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "DA",
+                "BAR",
+                "\u092c\u0948\u0902\u0915 \u0911\u092b\u093c \u092c\u0921\u093c\u094c\u0926\u093e",
+                "Bank of Baroda",
+                "\u0938\u0947\u0935\u093f\u0902\u0917 \u0916\u093e\u0924\u093e I SAVINGS ACCOUNT",
+                "NK",
+                "\u0905\u0926\u093e \u0915\u0930\u0947",
+                "John Doe",
+                "Pay",
+                "\u0930\u0941\u092a\u092f\u0947",
+                "ten thousand only",
+                "Rupees",
+                "\u0926\u093f\u0928\u093e\u0902\u0915 12-10-2022",
+                "Date",
+                "B",
+                "B",
+                "A BANK OF",
+                "RODA BANK OF BA",
+                "\u092c. \u092a.",
+                "L.F.",
+                "\u0916\u093e.\u0938\u0902.",
+                "A/c No.",
+                "1234567889",
+                "INTLS.",
+                "SSB/03/C",
+                "\u092a\u093e\u0930\u094d\u0915 \u0938\u0930\u094d\u0915\u0938, \u0915\u094b\u0932\u0915\u093e\u0924\u093e \u096d\u0966\u0966\u0966\u0967\u096a",
+                "Park Circus, Kolkata 700 014",
+                "AN",
+                "PKC",
+                "TR",
+                "RO",
+                "AN",
+                "\u0930\u0941",
+                "Rs",
+                "B",
+                "IN",
+                "\u092f\u093e \u0927\u093e\u0930\u0915 \u0915\u094b",
+                "Or Bearer",
+                "10000",
+                "RODA BANK",
+                "IK OF BARC",
+                "AR",
+                "ARC",
+                "BARC"
+            ]
+        },
+        "structured_data": {}
+    },
+    "signature_verification_conf": 0.7886677980422974,
+    "verified_signature_name": "john_doe",
+    "signature_detection_conf": 0.49307385087013245,
+    "signature_class": "DLSignature",
+    "sign_image_cords": [
+        961,
+        365,
+        1067,
+        423
+    ]
+}

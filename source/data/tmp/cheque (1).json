@@ -1,0 +1,110 @@
+{
+    "local_path": "./data/tmp/cheque (1).png",
+    "blob_url": "https://bobdocs.blob.core.windows.net/bob-run-docs/cheque (1).png",
+    "signature_present": false,
+    "signatures_verified": false,
+    "data_extracted": {
+        "document_detected": {
+            "BOB:BOB": 0.789
+        },
+        "identified_labels": {
+            "issue_date": {
+                "value": "1-11-22",
+                "confidence": 0.953
+            },
+            "signature": {
+                "value": "unsigned",
+                "confidence": 0.995
+            },
+            "account_no": {
+                "value": "563452511",
+                "confidence": 0.99
+            },
+            "account_holder_name": {
+                "value": "Aggarwal Limited",
+                "confidence": 0.882
+            },
+            "amount_in_words": {
+                "value": "1 crore only",
+                "confidence": 0.944
+            },
+            "amount": {
+                "value": "10000000/-",
+                "confidence": 0.963
+            }
+        },
+        "labels_coordinates": {
+            "issue_date": [
+                713,
+                26,
+                788,
+                49
+            ],
+            "signature": [
+                549,
+                229,
+                796,
+                313
+            ],
+            "account_no": [
+                150,
+                260,
+                260,
+                285
+            ],
+            "account_holder_name": [
+                239,
+                100,
+                410,
+                127
+            ],
+            "amount_in_words": [
+                203,
+                143,
+                320,
+                167
+            ],
+            "amount": [
+                670,
+                189,
+                779,
+                210
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u0938\u0947\u0935\u093f\u0902\u0917 \u0916\u093e\u0924\u093e \u0964 SAVINGS ACCOUNT",
+                "BAR",
+                "\u092c\u0948\u0902\u0915 \u0911\u092b\u093c \u092c\u0921\u093c\u094c\u0926\u093e",
+                "Bank of Baroda",
+                "Pay",
+                "\u0905\u0926\u093e \u0915\u0930\u0947",
+                "Aggarwal Limited",
+                "\u0930\u0941\u092a\u092f\u0947",
+                "1 crore only",
+                "Rupees",
+                "LE",
+                "ODA",
+                "91.6.",
+                "INTLS.",
+                "\u0916\u093e.\u0938\u0902.",
+                "A/c No.",
+                "563452511",
+                "SSB/03/C",
+                "\u092a\u093e\u0930\u094d\u0915 \u0938\u0930\u094d\u0915\u0938, \u0915\u094b\u0932\u0915\u093e\u0924\u093e \u096d\u0966\u0966\u0966\u0967\u096a",
+                "Park Circus, Kolkata 700 014",
+                "PKC",
+                "\u0930\u0941",
+                "Rs",
+                "\u0926\u093f\u0928\u093e\u0902\u0915",
+                "1-11-22",
+                "Date",
+                "\u092f\u093e \u0927\u093e\u0930\u0915 \u0915\u094b",
+                "Or Bearer",
+                "10000000/-",
+                "sketchpad.pro"
+            ]
+        },
+        "structured_data": {}
+    }
+}

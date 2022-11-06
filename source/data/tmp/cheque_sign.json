@@ -1,0 +1,119 @@
+{
+    "local_path": "./data/tmp/cheque_sign.png",
+    "blob_url": "https://bobdocs.blob.core.windows.net/bob-run-docs/cheque_sign.png",
+    "signature_present": true,
+    "signatures_verified": false,
+    "data_extracted": {
+        "document_detected": {
+            "BOB:BOB": 0.904
+        },
+        "identified_labels": {
+            "account_holder_name": {
+                "value": "Aggarwal Limited",
+                "confidence": 0.927
+            },
+            "amount": {
+                "value": "10000000/-",
+                "confidence": 0.963
+            },
+            "signature": {
+                "value": "signed",
+                "confidence": 0.686
+            },
+            "account_no": {
+                "value": "563452511",
+                "confidence": 0.995
+            },
+            "amount_in_words": {
+                "value": "1 crore only",
+                "confidence": 0.9
+            },
+            "issue_date": {
+                "value": "1-11-22",
+                "confidence": 0.953
+            }
+        },
+        "labels_coordinates": {
+            "account_holder_name": [
+                239,
+                100,
+                410,
+                127
+            ],
+            "amount": [
+                668,
+                187,
+                780,
+                211
+            ],
+            "signature": [
+                591,
+                230,
+                706,
+                301
+            ],
+            "account_no": [
+                151,
+                261,
+                259,
+                283
+            ],
+            "amount_in_words": [
+                204,
+                144,
+                320,
+                169
+            ],
+            "issue_date": [
+                713,
+                26,
+                787,
+                49
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u0938\u0947\u0935\u093f\u0902\u0917 \u0916\u093e\u0924\u093e \u0964 SAVINGS ACCOUNT",
+                "\u092c\u0948\u0902\u0915 \u0911\u092b\u093c \u092c\u0921\u093c\u094c\u0926\u093e",
+                "Bank of Baroda",
+                "Aggarwal Limited",
+                "\u0905\u0926\u093e \u0915\u0930\u0947",
+                "Pay",
+                "\u0930\u0941\u092a\u092f\u0947",
+                "Rupees",
+                "1 crore only",
+                "\u092c.\u092a.",
+                "L.F",
+                "INTLS.",
+                "563452511",
+                "\u0916\u093e.\u0938\u0902.",
+                "A/c No.",
+                "SSB/03/C",
+                "\u092a\u093e\u0930\u094d\u0915 \u0938\u0930\u094d\u0915\u0938, \u0915\u094b\u0932\u0915\u093e\u0924\u093e \u096d\u0966\u0966\u0966\u0967\u096a",
+                "Park Circus, Kolkata 700 014",
+                "PKC",
+                "\u0926\u093f\u0928\u093e\u0902\u0915",
+                "1-11-22",
+                "Date",
+                "\u092f\u093e \u0927\u093e\u0930\u0915 \u0915\u094b",
+                "Or Bearer",
+                "OF BARODA",
+                "\u0930\u0941",
+                "Rs",
+                "10000000/-",
+                "Sanghel"
+            ]
+        },
+        "structured_data": {}
+    },
+    "signature_verification_conf": 0.570967435836792,
+    "verified_signature_name": "sourabh_kumar_janghel",
+    "signature_detection_conf": 0.6394452452659607,
+    "signature_class": "DLLogo",
+    "sign_image_cords": [
+        585,
+        234,
+        715,
+        301
+    ]
+}

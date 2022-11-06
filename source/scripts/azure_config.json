@@ -1,0 +1,12 @@
+{
+    "container_name" : "bob-run-docs",
+    "connect_str" : "DefaultEndpointsProtocol=https;AccountName=bobdocs;AccountKey=Nn0na9ZBea6yfVGIZ2ten7cOJKEnul4TOHsYe+fWcgBh8cGwNrDylqI5R1L05OyTMzUc3E+DgBw0+ASteku+7A==;EndpointSuffix=core.windows.net",
+    "FORM_KEY": "d6c73d0162454a4bbcb42e300e666087",
+    "FORM_ENDPOINT" : "https://bob-form.cognitiveservices.azure.com/",
+    "MODEL_ID" : "BOB",
+    "TRANSLATE_KEY" : "10d196414a374a87b691bc24c1770123",
+    "TRANSLATE_ENDPOINT" : "https://api.cognitive.microsofttranslator.com/",
+    "STORAGE_ENDPOINT" : "https://bobcheque.documents.azure.com:443/",
+    "STORAGE_KEY" :  "WrSYWMLT6sVmKS3LvupCkfkgS5344C9pbhHX798E6WPs8V9NSjhg42mIRXfTu1WrIGF93ZL6JeywACDbI4yvQQ==",
+    "LOCATION" : "eastus"
+}

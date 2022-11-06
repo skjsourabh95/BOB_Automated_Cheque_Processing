@@ -1,0 +1,109 @@
+{
+    "local_path": "./data/tmp/cheque-eng.png",
+    "blob_url": "https://bobdocs.blob.core.windows.net/bob-run-docs/cheque-eng.png",
+    "signature_present": false,
+    "signatures_verified": false,
+    "data_extracted": {
+        "document_detected": {
+            "BOB:BOB": 0.778
+        },
+        "identified_labels": {
+            "account_holder_name": {
+                "value": "S. K. Jaghel",
+                "confidence": 0.815
+            },
+            "amount": {
+                "value": "10,000/-",
+                "confidence": 0.964
+            },
+            "signature": {
+                "value": "unsigned",
+                "confidence": 0.995
+            },
+            "account_no": {
+                "value": "987654321",
+                "confidence": 0.995
+            },
+            "amount_in_words": {
+                "value": "ten thousand only",
+                "confidence": 0.944
+            },
+            "issue_date": {
+                "value": "1/12-22",
+                "confidence": 0.953
+            }
+        },
+        "labels_coordinates": {
+            "account_holder_name": [
+                150,
+                83,
+                379,
+                123
+            ],
+            "amount": [
+                619,
+                193,
+                736,
+                217
+            ],
+            "signature": [
+                545,
+                230,
+                799,
+                314
+            ],
+            "account_no": [
+                142,
+                261,
+                257,
+                285
+            ],
+            "amount_in_words": [
+                152,
+                134,
+                483,
+                170
+            ],
+            "issue_date": [
+                707,
+                27,
+                779,
+                53
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u0938\u0947\u0935\u093f\u0902\u0917 \u0916\u093e\u0924\u093e \u0964 SAVINGS ACCOUNT",
+                "\u0905\u0926\u093e \u0915\u0930\u0947",
+                "S. K. Jaghel",
+                "Pay",
+                "\u0930\u0941\u092a\u092f\u0947",
+                "ten thousand only",
+                "Rupees",
+                "\u092c. \u092a",
+                "\u0916\u093e.\u0938\u0902.",
+                "A/c No.",
+                "987654321",
+                "BA",
+                "\u092c\u0948\u0902\u0915 \u0911\u092b\u093c \u092c\u0921\u093c\u094c\u0926\u093e",
+                "Bank of Baroda",
+                "CI",
+                "INTLS.",
+                "SSB/03/C",
+                "\u092a\u093e\u0930\u094d\u0915 \u0938\u0930\u094d\u0915\u0938, \u0915\u094b\u0932\u0915\u093e\u0924\u093e \u096d\u0966\u0966\u0966\u0967\u096a",
+                "Park Circus, Kolkata 700 014",
+                "PKC",
+                "\u0930\u0941",
+                "Rs",
+                "10,000/-",
+                "\u0926\u093f\u0928\u093e\u0902\u0915 1/12-22",
+                "Date",
+                "\u092f\u093e \u0927\u093e\u0930\u0915 \u0915\u094b",
+                "Or Bearer",
+                "AR",
+                "sketchpad.pro"
+            ]
+        },
+        "structured_data": {}
+    }
+}

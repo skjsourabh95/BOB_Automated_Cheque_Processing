@@ -1,0 +1,41 @@
+tensorflow
+
+# Base ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML==5.4.1
+requests>=2.23.0
+scipy==1.6.0
+torch>=1.7.0  
+torchvision>=0.8.1
+tqdm>=4.64.0
+
+# Logging -------------------------------------
+tensorboard>=2.4.1
+
+# Plotting ------------------------------------
+pandas==1.2.0
+seaborn>=0.11.0
+
+# Extras --------------------------------------
+ipython  # interactive notebook
+psutil  # system utilization
+thop>=0.1.1  # FLOPs computation
+
+
+dash_core_components==1.14.1
+dash_table==4.11.1
+plotly==4.14.3
+dash_html_components==1.1.1
+dash==1.18.1
+Flask==2.1.2
+scikit_learn==0.24.0
+pdf2image==1.16.0
+azure-ai-formrecognizer==3.2.0b5
+azure-storage-blob==12.8.1
+azure-cosmos==4.3.0
+psutil  
+deskew
+gunicorn
