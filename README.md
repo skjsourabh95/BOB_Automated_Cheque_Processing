@@ -43,6 +43,7 @@ The FLow of Processing:
 ## Solution Architecture
 ![alt text](./idea/images/arch.png)
 
+## Solution Video Demonstration Can be found [here](https://drive.google.com/file/d/1gRcZK0jRq_GusskbYgupXoLXdZ-89Jcg/view?usp=share_link)
 
 ## Solution Samples
 ### UPLOADING
